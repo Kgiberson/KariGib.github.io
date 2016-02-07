@@ -1,0 +1,77 @@
+html {
+  background: url(../imgs/piha.jpg) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+.center {
+  text-align: center;
+
+}
+
+body {
+  font-family:'Arimo', Times, serif;
+  text-align:center;
+  color: #222211;
+}
+
+h1 {
+  margin-top: 5%;
+  margin-bottom:0;
+  color:#222211;
+  font-family: "Arimo", Times, serif
+}
+
+
+a {
+  text-decoration:none;
+  color:#222211;
+}
+
+section {
+  margin-top:5%;
+
+}
+.navmain li {
+  display:inline;
+  margin-right: 50px;
+  font-size:25px;
+}
+
+.navmain a {
+  display:inline-block;
+  padding:5px;
+  color:#222211;
+  margin-top:5%;
+  font-size:25px;
+  font-family: "Lora", Times, serif
+}
+
+#orange-hover:hover {
+  color:#1a3366;
+}
+
+.footernav li {
+    display:inline;
+    margin-right:30px;
+}
+
+.footernav a {
+  display:inline-block;
+  padding:5px;
+  color: gray;
+}
+
+a:hover {
+  color: #e6b800;
+}
+
+#footer {
+  position:absolute;
+  right:0;
+  bottom:0;
+  left:0;
+  padding: 1rem;
+}
