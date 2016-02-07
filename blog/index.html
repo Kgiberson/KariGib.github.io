@@ -1,14 +1,16 @@
 <!DOCTYPE html>
 <html>
   <head>
+    <link rel="stylesheet" type="text/css" href="../stylesheets/default.css">
+    <link rel="stylesheet" type="text/css" href="../stylesheets/blog.css">
+    <link href='https://fonts.googleapis.com/css?family=Ubuntu|Merriweather|Arimo|Poiret+One|Bitter|Alegreya|Crimson+Text|Lora' rel='stylesheet' type='text/css'>
     <title>KARI GIBERSON</title>
-    <meta charset="utf-8" />
   </head>
   <body>
     <header>
       <h1>KARI GIBERSON</h1>
       <nav>
-        <ul>
+        <ul class="navblogindex">
           <li><a href="#">ABOUT ME</a></li>
           <li><a href="#">PORTFOLIO</a></li>
           <li><a href="#">BLOG</a></li>
@@ -16,28 +18,26 @@
         </ul>
       </nav>
     </header>
-    <section>
-      <h2>Blog Post Index</h2>
+    <section class="left-column">
+      <h3 id="title-list">My Blog Posts</h3>
       <nav>
-        <ul>
+        <ul class="postlinks">
           <li><a href="http://kgiberson.github.io/blog/git.html">Intro to git and GitHub</a></li>
         </ul>
       </nav>
+    </section>
       <aside>
-        <section>
-          <img src="../imgs/profile_pic.jpg" alt="profile image" width="20%" height="20%">
-        </section>
-        <section>
-        <h4>Kari Giberson is an aspiring web developer.</h4>
-        </section>
+        <figure>
+          <img src="../imgs/profile_pic.jpg" alt="profile image">
+        <figcaption>Kari Giberson is an aspiring web developer.</figcaption>
+        </figure>
         <section>
           <nav>
-            <ul>
+            <ul class="sidenav">
               <li><a href="https://www.linkedin.com/in/kari-giberson-91020251">LINKEDIN</a></li>
               <li><a href="https://github.com/Kgiberson">GITHUB</a></li>
             </ul>
           </nav>
         </section>
       </aside>
-    </section>
 </html>
