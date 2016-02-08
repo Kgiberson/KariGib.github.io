@@ -15,6 +15,8 @@ body {
   font-family:'Arimo', Times, serif;
   text-align:center;
   color: #222211;
+  position: relative;
+  padding-bottom: 6em;
 }
 
 h1 {
@@ -32,6 +34,7 @@ a {
 
 section {
   margin-top:5%;
+  margin-bottom: 0%;
 
 }
 .navmain li {
@@ -44,7 +47,7 @@ section {
   display:inline-block;
   padding:5px;
   color:#222211;
-  margin-top:5%;
+  margin-top:0%;
   font-size:25px;
   font-family: "Lora", Times, serif
 }
@@ -75,3 +78,4 @@ a:hover {
   left:0;
   padding: 1rem;
 }
+

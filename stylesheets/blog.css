@@ -74,3 +74,15 @@ figcaption {
   color:#e6b800;
 }
 
+h3 {
+  text-decoration: underline;
+}
+
+.maincontent {
+  background-color: #ffff99;
+  text-align: left;
+  border:2px solid black;
+  padding-left: 5%;
+  margin:0 5%;
+  margin-bottom: 6em;
+}
