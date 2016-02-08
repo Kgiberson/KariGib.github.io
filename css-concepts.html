@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Kari | Blog</title>
+  <meta charset="UTF-8">
+  <link rel="stylesheet" type="text/css" href="stylesheets/default.css">
+  <link rel="stylesheet" type="text/css" href="stylesheets/blog.css">
+  <link href='https://fonts.googleapis.com/css?family=Ubuntu|Merriweather|Arimo|Poiret+One|Bitter|Alegreya|Crimson+Text|Lora' rel='stylesheet' type='text/css'>
+</head>
+<body>
+  <header>
+      <h1>KARI GIBERSON</h1>
+      <nav>
+        <ul class="navblogindex">
+          <li><a href="#">ABOUT ME</a></li>
+          <li><a href="#">PORTFOLIO</a></li>
+          <li><a href="#">BLOG</a></li>
+          <li><a href="#">CONTACT</a></li>
+        </ul>
+      </nav>
+    </header>
+  <section class="articletitle">
+    <h2>CSS Display: Inline-Block</h2>
+    <h4>What does it mean & how do I use it?</h4>
+    <h5>Februrary 7, 2016</h5>
+  </section>
+    <section class="maincontent">
+      <h3>What is a block-level element?</h3>
+      <p>CSS treats each HTML element as if it lives in its own box. Block-level elements occupy the entire space of their container (aka parent element). These elements look like they start on a new line and have a set, defined width and height. Examples include <code>h1-h6</code>, <code>p</code>, and <code>div</code>.
+      </p>
+      <h3>What is an inline element?</h3>
+      <p>Inline elements flow within the text and do not start on a new line. Their width and height are determined by their content.
+      </p>
+      <h3>Display Property</h3>
+      <p>The display property allows you to turn an inline element into a block-level element or vice versa.
+      </p>
+        <ul>
+          <li>display: inline; => causes a block-level element to act like an inline element</li>
+          <li>display: block; => causes an inline element to act like a block-level element</li>
+          <li>display: inline-block; => causes a block-level element to flow like an inline element, while retaining other feature of a block-level element.</li>
+        </ul>
+      <h3>Displaying Inline</h3>
+      <p>Displaying a block-level element inline will line up each element alongside each other. This technique is often used to create a horizontal navigation bar for a site.
+      </p>
+      <h3>Displaying Inline-Block</h3>
+      <p>Displaying inline-block also lines up elements horizontally, but they retain certain block-level features, like manually defined width and height.</p>
+      <p>Below you'll find the CSS code I used to create the horizontal navigation bar at the top of this page.
+      <img src="imgs/inline-block.png" alt="inline-block example">
+      <p>
+        Why did I choose to apply inline-block to the anchor elements, <code>a</code>, and not the list elements, <code>li</code>? Certain browsers will only allow inline-block to work on elements that are inherently inline elements, of which <code>a</code> is one.
+      </p>
+      </section>
+    </main>
+    <footer id="footer" class="center">
+      <nav>
+        <ul class="footernav">
+          <li><a href="https://www.linkedin.com/in/kari-giberson-91020251">LINKEDIN</a></li>
+          <li><a href="https://github.com/Kgiberson">GITHUB</a></li>
+          <li><a href="#">RESUME</a></li>
+        </ul>
+      </nav>
+    </footer>
+  </body>
+</html>
