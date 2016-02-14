@@ -1,0 +1,17 @@
+.navblogindex li {
+  display:inline;
+  margin:50px;
+}
+
+.navblogindex a {
+  display:inline-block;
+}
+
+.content {
+  background-color: #000000;
+  color: #4d4d4d;
+  padding: 2%;
+  border-radius: 10px;
+  margin-left: 10%;
+  margin-right: 10%;
+}
