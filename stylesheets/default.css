@@ -6,14 +6,22 @@ html {
   background-size: cover;
 }
 
-.center {
-  text-align: center;
+html, body {
+  height: 100%;
+}
 
+* {
+  text-align: center;
+}
+
+#container {
+  min-height: 100%;
+  margin-bottom: -100px;
+  position: relative;
 }
 
 body {
   font-family:'Arimo', Times, serif;
-  text-align:center;
   color: #222211;
   position: relative;
   padding-bottom: 6em;
@@ -22,8 +30,6 @@ body {
 h1 {
   margin-top: 5%;
   margin-bottom:0;
-  color:#222211;
-  font-family: "Arimo", Times, serif
 }
 
 
@@ -72,10 +78,12 @@ a:hover {
 }
 
 #footer {
-  position:absolute;
-  right:0;
-  bottom:0;
-  left:0;
-  padding: 1rem;
+  position:relative;
+  height: 100px;
+}
+
+.clearfooter {
+  height: 100px;
+  clear: both;
 }
 
