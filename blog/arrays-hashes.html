@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Arrays and Hashes</title>
+  <meta charset="UTF-8">
+  <link rel="stylesheet" type="text/css" href="../stylesheets/default.css">
+  <link rel="stylesheet" type="text/css" href="../stylesheets/blog_template.css">
+  <link href='https://fonts.googleapis.com/css?family=Ubuntu|Merriweather|Arimo|Poiret+One|Bitter|Alegreya|Crimson+Text|Lora' rel='stylesheet' type='text/css'>
+</head>
+<body>
+  <div id="container">
+  <header>
+      <h1>KARI GIBERSON</h1>
+      <nav>
+        <ul class="navblogindex">
+          <li><a href="http://kgiberson.github.io">ABOUT ME</a></li>
+          <li><a href="#">PORTFOLIO</a></li>
+          <li><a href="http://kgiberson.github.io/blog/index.html">BLOG</a></li>
+          <li><a href="#">CONTACT</a></li>
+        </ul>
+      </nav>
+    </header>
+  <section class="articletitle">
+    <h2>Intro to Arrays and Hashes</h2>
+    <h4>What are these Ruby containers and when should I use them?</h4>
+    <h5>February 14, 2016</h5>
+  </section>
+    <section class="content">
+      <p>Ruby is an object-oriented programming language, which means that it processes its data as "objects." It is the programmer's job to define the content of the object and how it behaves using Ruby syntax. Ruby represents collections of objects by putting them inside container objects and the two most commonly used containers are...you guessed it!</p>
+      <p>Arrays and hashes.</p>
+      <h3 class="sectiontitle">Arrays</h3>
+      <p>An array is a collection of objects that is ordered by a numerical index. An array can store any type of object, including other arrays! Each slot in an array is numbered, starting at 0, and it is this numbering that allows a programmer to call a certain object in an array. <p>
+      <p class="rubycode">array_name = ["objects", "in", "the", "array"]</p>
+      <p class="rubycode">favorite_foods = ["pizza", "chocolate", "avocado"]</p>
+      <h3 class="sectiontitle">Hashes</h3>
+      <p>Hashes are similar to dictionaries in how they store objects in pairs. Each pair has a key and a value. Any object can serve as a hash key and/or value but keys are unique in each hash (you can't have two keys called "potato" within the same hash.) You must use the key to return the value paired to it.</p>
+       <p class="rubycode">hash_name = {key1 => "value1", key2 => "value2", key3 => "value3"}</p>
+      <p class="rubycode"> meal_plan = {"Tuesday" => "pizza", "Wednesday" => "tacos", "Thursday" => "salad"}</p>
+      <h3 class="sectiontitle">What's the difference?</h3>
+      <p>Both arrays and hashes are incredibly powerful tools for storing and retrieving data. You can store arrays and hashes inside arrays, and hashes inside hashes. Hashes are faster than arrays at data retrieval. Their major differences as containers lie in how they lookup data.</p>
+      <p class="indicate">Arrays use the index (order) number</p>
+      <p>num_array = [35,-10 ,104]</p>
+      <p>num_array[1]</p>
+      <p>(returns -10)</p>
+      <p class="indicate">Hashes use the key value:</p>
+      <p>my_hash = {firstname: "Kari", lastname: "Giberson", hometown: "Staten Island, NY"}</p>
+      <p>my_hash[:hometown]</p>
+      <p>(returns "Staten Island, NY")
+      </section>
+       <div class="clearfooter"></div>
+     </div>
+    <footer class="footer">
+      <nav>
+        <ul class="footernav">
+          <li><a href="https://www.linkedin.com/in/kari-giberson-91020251">LINKEDIN</a></li>
+          <li><a href="https://github.com/Kgiberson">GITHUB</a></li>
+          <li><a href="#">RESUME</a></li>
+        </ul>
+      </nav>
+    </footer>
+  </body>
+</html>
