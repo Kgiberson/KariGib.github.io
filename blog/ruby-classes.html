@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>What is Version Control?</title>
+  <meta charset="UTF-8">
+  <link rel="stylesheet" type="text/css" href="../stylesheets/default.css">
+  <link rel="stylesheet" type="text/css" href="../stylesheets/blog_template.css">
+  <link href='https://fonts.googleapis.com/css?family=Ubuntu|Merriweather|Arimo|Poiret+One|Bitter|Alegreya|Crimson+Text|Lora' rel='stylesheet' type='text/css'>
+</head>
+<body>
+  <div id="container">
+  <header>
+      <h1>KARI GIBERSON</h1>
+      <nav>
+        <ul class="navblogindex">
+          <li><a href="#">ABOUT ME</a></li>
+          <li><a href="#">PORTFOLIO</a></li>
+          <li><a href="http://kgiberson.github.io/blog/index.html">BLOG</a></li>
+          <li><a href="#">CONTACT</a></li>
+        </ul>
+      </nav>
+    </header>
+  <section class="articletitle">
+    <h2>Ruby Classes</h2>
+    <h4>A look at<br>Instance Variables & Instance Methods</h4>
+    <h5>Februrary 28, 2016</h5>
+  </section>
+    <section class="content">
+      <h3>Defining a Class</h3>
+      <p>Defining a class is a ruby programming technique for creating objects on a batch basis. A class is the blueprint and instances of the class are objects. You can apply this blueprint -> object idea to many different objects. For example, my macbook computer is an instance of the class, Laptops.</p>
+      <p>Take a look at the Guitar class I created below. It was initialized with three arguments: type, body_shape, and brand. The initialize method executes every time you create a new instance of the class. It sets an object's state at the time of the object's creation.</p>
+      <p>Within the initialize method, I've assigned our three arguments to instance variables. These variables are able to be accessed across methods within the same object, that is, within each instance of the class.</p>
+      <img src="../imgs/ruby_class_example.png" alt="Guitar class ex">
+      <h3>Attributes</h3>
+      <p>An attribute is a property of an object whose value can be read and/or written through the object. The attr_reader defined at the beginning of our 'Guitar' class gives the 'Player' class access to our three instance variables by creating new methods within that class.</p>
+      <p>Can you guess what the output of this program will be?</p>
+      </section>
+      <div class="clearfooter"></div>
+    </div>
+    <footer class="footer">
+      <nav>
+        <ul class="footernav">
+          <li><a href="https://www.linkedin.com/in/kari-giberson-91020251">LINKEDIN</a></li>
+          <li><a href="https://github.com/Kgiberson">GITHUB</a></li>
+          <li><a href="#">RESUME</a></li>
+        </ul>
+      </nav>
+    </footer>
+  </body>
+</html>
