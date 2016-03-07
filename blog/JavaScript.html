@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Kari | Blog</title>
+  <meta charset="UTF-8">
+  <link rel="stylesheet" type="text/css" href="../stylesheets/default.css">
+  <link rel="stylesheet" type="text/css" href="../stylesheets/blog_template.css">
+  <link href='https://fonts.googleapis.com/css?family=Ubuntu|Merriweather|Arimo|Poiret+One|Bitter|Alegreya|Crimson+Text|Lora' rel='stylesheet' type='text/css'>
+</head>
+<body>
+  <div id="container">
+  <header>
+      <h1>KARI GIBERSON</h1>
+      <nav>
+        <ul class="navblogindex">
+          <li><a href="http://kgiberson.github.io/about.html">ABOUT ME</a></li>
+          <li><a href="http://kgiberson.github.io/projects/index.html">PORTFOLIO</a></li>
+          <li><a href="http://kgiberson.github.io/blog/index.html">BLOG</a></li>
+          <li><a href="http://kgiberson.github.io/contact.html">CONTACT</a></li>
+        </ul>
+      </nav>
+    </header>
+  <section class="articletitle">
+    <h2>JavaScript Constuctor Functions</h2>
+    <h4>vs. Ruby Classes</h4>
+    <h5>March 6, 2016</h5>
+  </section>
+    <section class="content">
+      <h3>Review of Ruby Classes</h3>
+      <p>Recall that classes in Ruby serve as the blueprint for creating objects on a batch basis that share the same behavior and variables.</p>
+      <p>My sister, Erika, has high hopes to one day be a crazy cat lady. Her cat-tally is currently  3, but to achieve true cat-lady status she's going to need many more cats. To help her out, I've decided to create a Ruby Cat class. Now she'll be able to make as many instances of virtual Cats as her heart desires.</p>
+      <img src="../imgs/wk7_blog_ruby_classes.png" alt="Cat class ex">
+      <h3>An intro to JavaScript Constructor Functions</h3>
+      <p>A constructor in JavaScript is a regular funciton. When used with the 'new' method, it makes a new object and initializes the new object with a properties and methods. The equivalent of a Ruby instance variable is a JS property value.</p>
+      <p>When 'new Cat' (the constructor) is called four things happen:</p>
+        <li>It creates a new object</li>
+        <li>It sets the constructor property of the object to Cat</li>
+        <li>It sets up the object to delegate to Cat.prototype</li>
+        <li>It calls Cat() in the context of the new object.</li>
+        <br>
+        <img src="../imgs/wk7_blog_js_constructor.png" alt="Cat constructor ex">
+
+      <p>Functions automatically get a property called 'prototype,' which is an empty object. Just like class instances inherit the instance variables and methods of its class, a constructed object inherits all of the properties of its constructor's prototype.</p>
+      <p>
+      </p>
+      </section>
+      <div class="clearfooter"></div>
+    </div>
+    <footer class="footer">
+      <nav>
+        <ul class="footernav">
+          <li><a href="https://www.linkedin.com/in/kari-giberson-91020251">LINKEDIN</a></li>
+          <li><a href="https://github.com/Kgiberson">GITHUB</a></li>
+          <li><a href="#">RESUME</a></li>
+        </ul>
+      </nav>
+    </footer>
+  </body>
+</html>
