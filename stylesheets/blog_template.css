@@ -23,3 +23,10 @@
 .indicate {
   text-decoration: underline;
 }
+
+
+
+.thick {
+  font-weight: bold;
+  text-align: left;
+}
